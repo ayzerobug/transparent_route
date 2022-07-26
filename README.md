@@ -20,5 +20,5 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder. 
 
 ```dart
-pushScreen(context, const P2pTransactions(), isTransparent: true);
+pushScreen(context, const LoginScreen(), isTransparent: true);
 ```
