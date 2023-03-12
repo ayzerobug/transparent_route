@@ -10,15 +10,15 @@ class MyWidget extends StatelessWidget {
       children: [
         ElevatedButton(
           onPressed: () {
-            pushScreen(context, MyScreen());
+            pushScreen(context, const MyScreen());
           },
-          child: Text("Push Screen"),
+          child: const Text("Push Screen"),
         ),
         ElevatedButton(
           onPressed: () {
-            replaceScreen(context, MyScreen());
+            replaceScreen(context, const MyScreen());
           },
-          child: Text("Replace Screen"),
+          child: const Text("Replace Screen"),
         ),
       ],
     );
