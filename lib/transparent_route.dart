@@ -12,3 +12,12 @@ pushScreen(BuildContext ctx, Widget screen,
         : MaterialPageRoute(builder: (context) => screen),
   );
 }
+
+replaceScreen(BuildContext ctx, Widget screen) async {
+  Navigator.pushReplacement(
+    ctx,
+    MaterialPageRoute(
+      builder: (context) => screen,
+    ),
+  );
+}
